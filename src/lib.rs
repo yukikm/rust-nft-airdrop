@@ -63,7 +63,7 @@ mod tests {
             false => println!("Verification failed"),
         }
 
-        let to_pubkey = Pubkey::from_str("PUBLIC_KEY").unwrap();
+        let to_pubkey = Pubkey::from_str("nHSjCbSd3XD3UwGy5uAAUqEfDf4kBDYaJZ4eF82nCDZ").unwrap();
 
         let rpc_client = RpcClient::new(RPC_URL);
 
